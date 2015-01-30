@@ -9,19 +9,19 @@ Please import `adjacencymatrix.txt` AND `fuels.txt` in the project.
 * The next lines few lines represent the adjacency matrix.
 * Please enter data in the format shown below in test data.
 
+
+TEST DATA FOR `adjacencymatrix.txt`
+
 ```
-TEST DATA FOR "adjacencymatrix.txt"
----------------------------------
 8
 0	5	0	0	7	7	0	0
-0	0	10	0	3	0	0	0
+0	0	9	0	3	0	0	0
 0	0	0	6	0	0	0	0
 0	0	0	0	0	0	0	0
 0	0	0	4	0	2	7	3
 0	0	0	0	0	0	3	0
 0	0	4	5	0	0	0	0
 0	0	0	0	0	0	2	0
----------------------------------
 ```
 
 `fuels.txt` contains fuel station data.
@@ -31,9 +31,8 @@ TEST DATA FOR "adjacencymatrix.txt"
 * Nodes cannot be added if they are out of range
 * Please enter data in the format shown below in test data.
 
+
+TEST DATA FOR `fuels.txt`
 ```
-TEST DATA FOR "fuels.txt"
----------------------------------
-1,3,4
----------------------------------
+1, 3, 4
 ```
